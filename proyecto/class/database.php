@@ -30,5 +30,13 @@
                 echo $e->getMessage();
             }
         }
+
+        public function ejecutar(string $comando){
+            try{
+                $this ->PDOlocal->query($comando);
+            }catch(PDOException $e){
+                echo $e->getMessage();
+            }
+        }
     }
 ?>
