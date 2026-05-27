@@ -19,7 +19,7 @@
     <div class="container ancho">
         <h2 align="center">Registrar nuevo empleado</h2>
         <hr>
-        <form action="" method="post">
+        <form action="../scripts/guardarEmpleado.php" method="post">
             <div class="mb-3">
                 <label class="control-label" for="nombre">Nombre</label>
                 <input type="text" name="nombre" class="form-control" required>
