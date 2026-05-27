@@ -13,12 +13,12 @@
             $db = new Database();
             $db->conectarDB();
             extract($_POST);
-            $query = "insert into departamento (nombreDepa,fechaCreacion) values('$nombreDepa','$fechaCreacion')";
+            $query = "insert into departamento (nombreDepa, fechaCreacion) values('$nombreDepa', '$fechaCreacion')";
 
             $db->ejecutar($query);
             echo "
                 <div class='alert alert-success'>
-                    Empleado registrado
+                    Departamento registrado
                 </div>
             ";
 

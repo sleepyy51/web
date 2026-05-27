@@ -21,7 +21,7 @@
                 <table class='table table-hover'>
                 <thead class='table-dark'>
                 <tr>
-                <th>id Departamento</th><th>Nombre Departamento</th><th>Fecha de Creación</thl>
+                <th>ID Departamento</th><th>Nombre Departamento</th><th>Fecha de Creación</th>
                 </tr>
                 </thead>
                 <tbody>

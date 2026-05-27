@@ -17,7 +17,7 @@
 </head>
 <body>
     <div class="container ancho">
-        <h2 align="center">Registrar nuevo empleado</h2>
+        <h2 align="center">Registrar nuevo departamento</h2>
         <hr>
         <form action="../scripts/guardarDepartamento.php" method="post">
             <div class="mb-3">
@@ -26,7 +26,7 @@
             </div>
             <div class="mb-3">
                 <label class="control-label" for="fechaCreacion">Fecha de creación</label>
-                <input type="text" name="fechaCreacion" class="form-control" required>
+                <input type="date" name="fechaCreacion" class="form-control" required>
             </div>
 
             <br>
