@@ -17,7 +17,7 @@
 
             $db->ejecutar($query);
             echo "
-                <div class='alert alert-succes'>
+                <div class='alert alert-success'>
                     Empleado registrado
                 </div>
             ";
