@@ -17,10 +17,10 @@
                 <label class="control-label" for="nombreEmp"> Buscar Empleado </label>
                 <input type="text" name="nombreEmp" class="form-control" required>
             </div>
-            <br>
             <div class="d-grid gap-2">
                 <button class="btn btn-primary" btn-lg>Buscar</button>
             </div>
+            <br>
         </form>
         <table class="table table-hover">
             <thead class="table-dark">
