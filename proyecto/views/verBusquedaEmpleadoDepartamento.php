@@ -58,10 +58,11 @@
                     emp.direccion,
                     emp.telefono,
                     emp.correo, 
-                    $idDepa,
+                    depa.nombreDepa
                     from empleado as emp
-                    inner join on departamento as dep
-                    where emp.depaFk = dep.$idDepa;
+                    inner join departamento as depa
+                    on emp.depaFK = depa.idDepa
+                    where emp.depaFk = '$idDepa'
                 ";
                 $res = $conexion -> seleccionar($consulta);
                  foreach($res as $empleado){
@@ -82,8 +83,17 @@
                         </tbody>
                     </table>
                 ";
+            }else{
+                echo "
+                        <tr>
+                            <td colspan='8' align='center'>Selecciona un departamento para mostrar los empleados</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                ";
             }
         ?>
+        <br>
         <div class="d-grid gap-2">
             <button class="btn btn-primary btn-lg">Buscar</button>
         </div>
