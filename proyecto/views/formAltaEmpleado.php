@@ -69,7 +69,7 @@
 
             <br>
             <div class="d-grid gap-2">
-                <button class="btn btn-primary" btn-lg>Guardar</button>
+                <button class="btn btn-primary btn-lg">Guardar</button>
 
             </div>
             

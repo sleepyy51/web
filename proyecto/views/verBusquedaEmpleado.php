@@ -18,7 +18,7 @@
                 <input type="text" name="nombreEmp" class="form-control" required>
             </div>
             <div class="d-grid gap-2">
-                <button class="btn btn-primary" btn-lg>Buscar</button>
+                <button class="btn btn-primary btn-lg">Buscar</button>
             </div>
             <br>
         </form>
@@ -75,6 +75,7 @@
                         ";
                     }
                 }
+                $conexion->desconectarDB();
                 ?>
             </tbody>
         </table>

@@ -29,7 +29,7 @@
                         <li><a class="dropdown-item" href="views/formAltaDepartamento.php">Registrar Departamentos</a></li>
                         <li><hr class="dropdown-divider"></li>
                         <li><a class="dropdown-item" href="views/verBusquedaEmpleado.php">Buscar Empelados por Nombre</a></li>
-                        <li><a class="dropdown-item" href="">Buscar Empleados por Departamento</a></li>
+                        <li><a class="dropdown-item" href="views/verBusquedaEmpleadoDepartamento.php">Buscar Empleados por Departamento</a></li>
                     </ul>
                 </li>
             </ul>
